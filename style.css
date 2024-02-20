@@ -167,7 +167,7 @@ li {
     width: 30%;
     margin: 15px;
     border-radius: 10px;
-    min-width: 370px;
+    min-width: 370px; 
     min-height: 349px;
     box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
 }
@@ -261,18 +261,20 @@ li {
 }
 
 @media screen and (max-width:660px) {
-    .container {
-        max-width: 250px;
+    .header__container {
+        display: block;
+        align-items: center;
     }
-    
     .welcome__title {
         font-size: 28px;
     }
+
     .welcome__title h1 {
         color: #5C62EC;
         font-size: 32px;
         gap: 5px;
     }
+
     .welcome__desc {
         font-size: 24px;
     }
@@ -288,17 +290,19 @@ li {
     .projects__list {
         max-width: 380px;
     }
-.header__nav{
-    line-height: 40%;
-    margin: auto;
-}
-.header__ul {
-   margin-top: 24px;
-   display: inline-flex;
-}
 
-    .header__container {
-        display: block;
-        align-items: center;
+    .header__nav {
+        line-height: 40%;
+        margin: auto;
+    }
+
+    .header__ul {
+        margin-top: 24px;
+        display: inline-flex;
+    }
+
+    
+    .header__logo {
+        font-size: 20px;
     }
 }
