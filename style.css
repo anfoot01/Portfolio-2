@@ -6,7 +6,7 @@
 }
 
 image {
-    max-width: 100%;
+    width: 100%;
 }
 
 a {
@@ -93,6 +93,7 @@ li {
     text-align: center;
     color: #FAFAFA;
     line-height: 140%;
+    width: 100%;
 }
 
 .welcome__content {
@@ -284,6 +285,7 @@ li {
     }
 
     .projects__item {
+        margin: 0;
         margin-top: 10px;
     }
 
